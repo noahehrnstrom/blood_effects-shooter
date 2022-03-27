@@ -23,7 +23,7 @@ struct enemy
         float difX = center.x - pos.x;
         float difY = center.y - pos.y;
         float dist = sqrt(difX * difX + difY * difY);
-        if (dist > 75)
+        if (dist > 150)
         {
             pos.x += cos(ang / 180.0 * PI);
             pos.y += sin(ang / 180.0 * PI);
