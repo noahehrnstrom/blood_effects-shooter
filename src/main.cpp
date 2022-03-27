@@ -63,7 +63,7 @@ int main(int argc, char** argv)
             // Enables spraying
         }
         
-        if (randomGenerator::getRandom<int>(0, 50) == 0)
+        if (randomGenerator::getRandom<int>(0, 20) == 0)
         {
             float ang = randomGenerator::getRandom<float>(0, 359);
             enemymanager.createEnemy(sf::Vector2f( (simulationSpace.x / 2) + (simulationSpace.x * cos(ang / 180.0 * PI)), (simulationSpace.y / 2) + (simulationSpace.y * sin(ang / 180.0 * PI)) ), randomGenerator::getRandom<float>(0, 359));
