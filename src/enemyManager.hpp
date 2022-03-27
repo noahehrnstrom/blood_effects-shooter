@@ -1,7 +1,6 @@
 #ifndef enemyManager_hpp
 #define enemyManager_hpp
 
-
 #include <SFML/Graphics.hpp>
 #include "bulletManager.hpp"
 #include "explosionManager.hpp"
