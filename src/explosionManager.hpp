@@ -1,6 +1,9 @@
 #ifndef exploisonManager_hpp
 #define exploisonManager_hpp
 
+// #pragma warning(disable:4146)
+// Enable for visual studio
+
 #include <SFML/Graphics.hpp>
 #include "randomGenerator.hpp"
 #include <iostream>
