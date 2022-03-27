@@ -1,8 +1,6 @@
 #ifndef exploisonManager_hpp
 #define exploisonManager_hpp
 
-#pragma warning(disable:4146)
-
 #include <SFML/Graphics.hpp>
 #include "randomGenerator.hpp"
 #include <iostream>
