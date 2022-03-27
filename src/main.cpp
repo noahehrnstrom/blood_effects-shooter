@@ -17,7 +17,7 @@ int main(int argc, char** argv)
     sf::Sprite backdrop;
     backdrop.setTexture(resources.getTexture(plains_texture));
     backdrop.setColor(sf::Color(255, 255, 255, 200));
-    backdrop.setScale(3440 / 700, 1440 / 393);
+    backdrop.setScale(simulationSpace.x / 700, simulationSpace.y / 393);
     
     explosionManager explosionmanager;
     explosionmanager.init(resources.getTexture(blood_texture), simulationSpace);
